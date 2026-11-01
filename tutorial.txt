@@ -1,0 +1,55 @@
+# 🧹 Downloads Folder Cleaner Bot (Java 21)
+
+A fast, automated setup written in **Java 21** that scans your cluttered system `Downloads` folder and neatly organizes files into categorical sub-folders based on their extensions.
+
+This repository is structured both as a developer source space and a downloadable, user-friendly utility package.
+
+---
+
+## 📂 Project Directory Structure
+
+Your local folder (`D:\downloads-cleaner-bot`) contains the following 7 files:
+
+- `.gitignore`      - Configured to keep compiled files out of the main GitHub branch code view.
+- `Cleaner.java`     - The original Java 21 source code file.
+- `Cleaner.class`    - The compiled Java bytecode execution file.
+- `cleaner.jar`     - The standalone, executable Java binary engine.
+- `RunCleaner.bat`   - The double-clickable Windows shortcut that executes the JAR.
+- `tutorial.txt`      - The text guide included in the ZIP file for casual users.
+- `README.md`       - This documentation homepage page.
+
+---
+
+## 📋 Pre-requisites & Requirements
+
+Before running the automated batch shortcut, ensure your system environment satisfies this requirement:
+* **Java Runtime Engine (JRE) / JDK 21+** must be installed on your machine. 
+* To verify your version, run `java -version` in your command line terminal.
+* Link to download it:https://adoptium.net/fr/temurin/releases?version=21
+
+---
+
+## 🚀 How to Run the App
+
+### Option A: The Clickable Shortcut (For Users)
+If you downloaded the compressed release ZIP:
+1. Extract the folder to your drive.
+2. Double-click **`RunCleaner.bat`** to run the tool instantly without typing terminal paths.
+
+### Option B: Compiling from Source (For Developers)
+If you cloned the source directory files and want to rebuild the application binaries yourself, execute:
+```bash
+javac Cleaner.java && jar cfe cleaner.jar Cleaner Cleaner.class
+```
+
+---
+
+## 🛑 How `.gitignore` Protects the Repository
+The local `.gitignore` is specifically tracking internal execution files to ensure binary logs don't clutter up the clean open-source profile view:
+```text
+*.class
+.DS_Store
+Thumbs.db
+```
+
+⭐ Created by a 13-year-old developer. If this automation utility helped keep your desktop cleaner, give it a star!
