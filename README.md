@@ -15,7 +15,7 @@ The repository and release ZIP folder contain the following 7 files:
 - `Cleaner.class`    - The compiled Java bytecode execution file.
 - `cleaner.jar`     - The standalone, executable Java binary archive.
 - `RunCleaner.bat`   - The double-clickable Windows desktop shortcut launcher script.
-- `readme.txt`      - The simple plain text manual included in the ZIP file for casual users.
+- `tutorial.txt`      - The simple plain text manual included in the ZIP file for casual users.
 - `README.md`       - This documentation homepage page and tutorial file.
 
 ---
